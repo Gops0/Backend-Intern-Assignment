@@ -33,7 +33,7 @@ This is a backend API for an **Assignment Portal**. It provides functionalities 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/assignment-portal-api.git
-   cd assignment-portal-api
+   cd assignment-portal-api```
 
 
 2. **Install Dependencies: Run the following command to install required dependencies**:
