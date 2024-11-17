@@ -36,23 +36,24 @@ This is a backend API for an **Assignment Portal**. It provides functionalities 
    cd assignment-portal-api
 
 
-2. Install Dependencies: Run the following command to install required dependencies:
+2. **Install Dependencies: Run the following command to install required dependencies**:
 
-bash
+```bash
 Copy code
 npm install
-3. Set Up MongoDB:
+
+3. **Set Up MongoDB**:
 
 Make sure MongoDB is running locally or use a cloud database such as MongoDB Atlas.
 To start MongoDB locally, use the command:
-bash
+```bash
 Copy code
 mongod --dbpath /path/to/your/data
 
 
-4. Start the Server: Once the dependencies are installed and MongoDB is set up, start the API server:
+4. **Start the Server: Once the dependencies are installed and MongoDB is set up, start the API server**:
 
-bash
+```bash
 Copy code
 npm start
 The server will run on http://localhost:5000.
