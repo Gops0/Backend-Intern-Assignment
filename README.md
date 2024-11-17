@@ -33,29 +33,29 @@ This is a backend API for an **Assignment Portal**. It provides functionalities 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/assignment-portal-api.git
-   cd assignment-portal-api```
+   cd assignment-portal-api
 
 
 2. **Install Dependencies: Run the following command to install required dependencies**:
-
-```bash
-Copy code
-npm install
-
+   ```bash
+   Copy code
+   npm install
+   
 3. **Set Up MongoDB**:
+   Make sure MongoDB is running locally or use a cloud database such as MongoDB Atlas.
+   To start MongoDB locally, use the command:
+   ```bash
+   Copy code
+   mongod --dbpath /path/to/your/data
 
-Make sure MongoDB is running locally or use a cloud database such as MongoDB Atlas.
-To start MongoDB locally, use the command:
-```bash
-Copy code
-mongod --dbpath /path/to/your/data
+
 
 
 4. **Start the Server: Once the dependencies are installed and MongoDB is set up, start the API server**:
 
-```bash
-Copy code
-npm start
+   ```bash
+   Copy code
+   npm start
 The server will run on http://localhost:5000.
 
 API Endpoints
@@ -64,33 +64,33 @@ User Registration:
 
 URL: POST /api/users/register
 Body:
-json
-Copy code
-{
-  "username": "user1",
-  "password": "password123"
-}
+   json
+   Copy code
+   {
+     "username": "user1",
+     "password": "password123"
+   }
 User Login:
 
 URL: POST /api/users/login
 Body:
 json
 Copy code
-{
-  "username": "user1",
-  "password": "password123"
-}
+   {
+   "username": "user1",
+   "password": "password123"
+   }
 Upload Assignment:
 
 URL: POST /api/users/upload
 Body:
 json
 Copy code
-{
-  "userId": "60b9a1b629aa982ea1d6f6c0",
-  "task": "Complete the project report",
-  "admin": "60b9a1b629aa982ea1d6f6c1"
-}
+   {
+     "userId": "60b9a1b629aa982ea1d6f6c0",
+     "task": "Complete the project report",
+     "admin": "60b9a1b629aa982ea1d6f6c1"
+   }
 Admin Endpoints
 Admin Registration:
 
@@ -108,10 +108,10 @@ URL: POST /api/admins/login
 Body:
 json
 Copy code
-{
-  "username": "admin1",
-  "password": "adminpassword123"
-}
+   {
+     "username": "admin1",
+     "password": "adminpassword123"
+   }
 View Assignments:
 
 URL: GET /api/admins/assignments
